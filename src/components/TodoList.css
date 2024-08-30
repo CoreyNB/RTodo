@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 150px;
+  background: rgba(81, 18, 144, 0.621);
+  color: white;
+  gap: 8px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(78, 40, 165, 0.773);
+  color: white;
+}
+
+input {
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  gap: 8px;
+}
+.main-container input {
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.app-todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 4px;
+  border-radius: 8px;
+  background-color: blueviolet;
+}
+
+.todo-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.subTask {
+  display: flex;
+  gap: 8px;
+}
+
+.tasks-item {
+  display: flex;
+  gap: 8px;
+}
