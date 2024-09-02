@@ -4,6 +4,7 @@ import { fetchTodos } from "./Redux/todoActions";
 import Forms from "./components/Forms";
 import TodoList from "./components/TodoList";
 import "./components/TodoList.css";
+import "./App.css";
 
 function App() {
   const dispatch = useDispatch();
